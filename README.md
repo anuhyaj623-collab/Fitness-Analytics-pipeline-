@@ -32,9 +32,5 @@ Raw CSV → Python Ingestion → Snowflake RAW → dbt Transform → Tableau Das
 - Users who logged 30+ active minutes burned 40% more calories
 - Step goal (10,000/day) was met on average 3 out of 7 days
 - Sleep duration showed correlation with next-day activity levels
-
-## Dashboard
-[View on Tableau Public] → paste your Tableau URL here
-
 ## Dataset
 [Fitbit Dataset on Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
