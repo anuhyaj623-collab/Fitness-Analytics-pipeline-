@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    database: FITNESS_DB
+    schema: RAW
+    tables:
+      - name: DAILY_ACTIVITY
+      - name: SLEEP_DAY
+
+models:
+  - name: stg_daily_activity
+    columns:
+      - name: user_id
+        tests: [not_null]
+      - name: activity_date
+        tests: [not_null]
+
+  - name: stg_sleep
+    columns:
+      - name: user_id
+        tests: [not_null]
